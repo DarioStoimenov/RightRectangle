@@ -1,4 +1,4 @@
-#pragma once
+
 /*! \file RightTriangle.h
 	\brief Declaration of the class RightTriangle
 
@@ -17,7 +17,7 @@ using namespace std;
 
 /// @class RightTriangle
 /// @brief to manage an object with the shape of a Right Rectangle
-class RightTriangle
+class RightTriangle : public Polygon
 {
 protected: //using protected for future implementations
 

@@ -227,8 +227,6 @@ void RightTriangle::Dump() {
 	cout << "base = " << base << endl;
 	cout << "altitude = " << altitude << endl;
 	cout << "hypotenuse = " << GetHypotenuse() << endl;
-
-	cout << endl;
 	cout << "Perimeter = " << GetPerimeter() << endl;
 	cout << "Area = " << GetArea() << endl;
 
