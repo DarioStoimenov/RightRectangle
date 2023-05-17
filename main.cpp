@@ -6,6 +6,7 @@
 
 #include "polygon.h"
 #include "RightTriangle.h"
+#include "Rhombus.h"
 
 
 int main() {
@@ -20,9 +21,9 @@ int main() {
 	}
 
 
-	for (int i = 0; i <3; i++)
+	for (int i = 0; i < 3; i++)
 	{
-		delete t1 [i];
+		delete t1[i];
 	}
 
 	// testing of the universal operators
@@ -36,7 +37,7 @@ int main() {
 	else
 		cout << "compare1 has not the same size of compare2 " << endl;
 
-	compare1=compare2;
+	compare1 = compare2;
 
 	if (compare1 == compare2)
 		cout << endl << "compare1 has the same size of compare2 " << endl;
@@ -55,6 +56,9 @@ int main() {
 
 	RightTriangle copy1 = baseconstr;
 	copy1.Dump();
+
+	Rhombus r;
+	r.Draw();
 
 	return 0;
 }
